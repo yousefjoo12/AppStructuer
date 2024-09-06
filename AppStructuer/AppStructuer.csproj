@@ -5,10 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Controllers\Moviecs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="WWWroot\CSS\" />
     <Folder Include="WWWroot\JS\" />
     <Folder Include="WWWroot\Images\" />
     <Folder Include="WWWroot\Lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
   </ItemGroup>
 
 </Project>

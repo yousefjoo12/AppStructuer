@@ -2,7 +2,7 @@
 
 namespace AppStructuer.Controllers
 {
-	public class MovieController : Controller
+	public class Movie : Controller
 	{
 		public IActionResult GetMovie(int id)
 		{
